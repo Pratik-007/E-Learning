@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ML">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Machine Learning"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="The area of Machine Learning deals with the design of programs that can learn rules from
+data, adapt to changes, and improve performance with experience. In addition to being
+one of the initial dreams of Computer Science, Machine Learning has become crucial as
+computers are expected to solve increasingly complex problems and become more integrated
+into our daily lives.
+Writing a computer program is a bit like writing down instructions for an extremely
+literal child who just happens to be millions of times faster than you. Yet many of the
+problems we now want computers to solve are no longer tasks we know how to explicitly
+tell a computer how to do. These include identifying faces in images, autonomous driving in
+the desert, finding relevant documents in a database (or throwing out irrelevant ones, such
+as spam email), finding patterns in large volumes of scientific data, and adjusting internal
+parameters of systems to optimize performance. That is, we may ourselves be good at
+identifying people in photographs, but we do not know how to directly tell a computer how
+to do it. Instead, methods that take labeled training data (images labeled by who is in them,
+or email messages labeled by whether or not they are spam) and then learn appropriate rules
+from the data, seem to be the best approaches to solving these problems. Furthermore, we
+need systems that can adapt to changing conditions, that can be user-friendly by adapting
+to needs of their individual users, and that can improve performance over time. "/>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="287dp"
+        android:src="@drawable/python" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="287dp"
+        android:src="@drawable/xgboost" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/lightgbm" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/catalyst" />
+
+
+</RelativeLayout>

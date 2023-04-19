@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artificialintellegence">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Artificial Intelligence"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Artificial intelligence (AI) is transforming the way businesses and governments are developing and using information. This course offers an overview of AI, its history, and its use in real-world situations; prior knowledge of machine learning, neural network, and probabilistic approaches is recommended. There are multiple definitions of AI, but the most common view is that it is software which enables a machine to think and act like a human, and to think and act rationally. Because AI differs from plain programing, the programming language used will depend on the application. In this series of videos, you will be introduced to multiple tools and techniques used in AI development. Also discussed are important issues in its application, such as the ethics and reliability of its use. You will set up a programing environment for developing AI applications and learn the best approaches to developing AI, as well as common mistakes. Gain the ability to communicate the value AI can bring to businesses today, along with multiple areas where AI is already being used. "/>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="287dp"
+        android:src="@drawable/python" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="287dp"
+        android:src="@drawable/pytorch" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/scikitlearn" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tensorflow" />
+
+
+
+</RelativeLayout>
